@@ -1,0 +1,5 @@
+numpy==1.26.4
+scipy==1.15.3
+tifffile==2025.5.10
+scikit-image==0.25.2
+matplotlib==3.10.9

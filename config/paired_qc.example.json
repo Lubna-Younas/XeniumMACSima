@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ROI01_C001",
+    "pixel_size_um": 0.17,
+    "matched_canvas_verified": false,
+    "mapping_evidence": "",
+    "before_reference": {"path": "/path/to/before-reference.tif", "channel": 0},
+    "before_cycle": {"path": "/path/to/before-cycle.tif", "channel": 0},
+    "after_reference": {"path": "/path/to/after-reference.tif", "channel": 0},
+    "after_cycle": {"path": "/path/to/after-cycle.tif", "channel": 0}
+  }
+]
