@@ -1,0 +1,23 @@
+# Data and private configuration stay outside version control.
+*.tif
+*.tiff
+*.ome.zarr/
+*.npy
+*.npz
+*.csv
+*.tsv
+*.pdf
+*.zip
+*.log
+*.local.*
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+._*
+data/
+results/
+work/
+.nextflow*
+!config/*.example.*
