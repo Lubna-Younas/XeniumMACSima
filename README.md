@@ -17,16 +17,23 @@ A staged, reproducible workflow for MACSima imaging associated with Xenium exper
 
 The example design uses 11 multiplex ROIs and 13 cycles plus an initial reference scan. These are configuration values, not assumptions about every experiment. Survey ROI0 requires a separate inventory and pixel scale; it is excluded from the default multiplex batch.
 
-```mermaid
-flowchart LR
-    A[Raw tiles] --> B[Inventory and quota]
-    B --> C[macsima2mc conversion]
-    C --> D[Pixel and metadata validation]
-    D --> E[Small ASHLAR pilot]
-    E --> F[Batch stitching and registration]
-    F --> G[Matched before/after QC]
-    G --> H[MACSiQ View import validation]
-```
+![Illustrated MACSima preprocessing workflow from raw tiles through conversion, ASHLAR stitching and registration, matched QC, and MACSiQ View import validation](docs/assets/workflow-overview.png)
+
+*Illustrative schematic; the microscopy drawings are not experimental results. Scientific visual QC and MACSiQ View import confirmation are required.*
+
+<details>
+<summary>Workflow in text</summary>
+
+1. Raw tiles
+2. Inventory and quota
+3. macsima2mc conversion
+4. Pixel and metadata validation
+5. Small ASHLAR pilot
+6. Batch stitching and registration
+7. Matched before/after QC
+8. MACSiQ View import validation
+
+</details>
 
 ## Quick start
 
